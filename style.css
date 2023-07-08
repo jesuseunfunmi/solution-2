@@ -98,12 +98,16 @@ span img{
     max-width: 100%;
 
 }
+.about-author{
+    padding-bottom: 10px;
+}
 
 .one{
  top: -10px;
     color: var(--text2);
     font-size: 14px;
     padding-left: 10px;
+ 
 }
 .two{
    color: var(--white);
