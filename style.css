@@ -32,6 +32,10 @@ body{
 body{
     background: var(--background);
     background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
 }
 .wrapper{
     background: var(--box);
