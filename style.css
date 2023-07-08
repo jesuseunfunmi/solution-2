@@ -1,0 +1,138 @@
+html{
+    font-family: 'Roboto', sans-serif; ;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: hsl(215, 51%, 70%);
+    --secondary:hsl(178, 100%, 50%);
+    --White: hsl(0, 0%, 100%);
+    --Verydarkblue: hsl(217, 54%, 11%);
+    --Verydarkblue : hsl(216, 50%, 16%);
+    --Verydarkblue : hsl(215, 32%, 27%);
+
+
+}
+:root{
+    --background:#0c1729;
+    --white:#fbffff;
+    --box:hsl(216, 50%, 16%);
+    --text2:#7387a8;
+    --text3:#05f6f0;
+
+}
+
+@font-face {
+    font-family:'Roboto', sans-serif;
+    src: url(/Outfit/Roboto-Bold.ttf);
+}
+body{
+    background: var(--background);
+    background-position: center;
+}
+.wrapper{
+    background: var(--box);
+    width: 320px;
+    margin-left: 26px ;
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+img{
+    width: 280px;
+    align-items: center;
+    justify-items: center;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+h1{
+    color: var(--white);
+    padding-left: 23px;
+    font-size: 20px;
+}
+.text1{
+    padding-left: 23px;
+    color: var(--text2);
+    margin-bottom: -1px;
+
+}
+span img{
+    width: 10px;
+    padding-right: 5px;
+}
+.money{
+    justify-content: space-between;
+    color: #05f6f0;
+}
+.time{
+    float:right;
+    padding-right: 33px;
+    color: var(--text2);
+}
+.line{
+    border: none;
+    border-top: 0.5px solid var(--text2); /* Adjust the color and thickness as needed */
+    margin-top: 10px ; /* Adjust the margin as needed */
+    width: 280px;
+    margin-left: 20px;
+    color: var(--text2);
+}
+.about-author img{
+    width: 20px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    padding-right: 5px;
+    margin-top: -5px;
+    max-width: ;
+
+}
+
+.one{
+ top: -10px;
+    color: var(--text2);
+    font-size: 14px;
+    padding-left: 10px;
+}
+.two{
+   color: var(--white);
+}
+@media screen and ( min-width:1300px) {
+    .wrapper{
+        background: var(--box);
+        width: 320px;
+        margin-left: 500px ;
+        position: absolute;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-top: 100px;
+        max-width: 100%;
+    }
+    .text1{
+        padding-left: 23px;
+        color: var(--text2);
+        margin-bottom: -1px;
+    
+    .wrapper :active{
+        background: var(--box);
+        width: 320px;
+        margin-left: 500px ;
+        position: absolute;
+        margin-top: 30px;
+        border-radius: 10px;
+        margin-top: 80px;
+    }
+    img :active{
+        width: 280px;
+        align-items: center;
+        justify-items: center;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        filter: invert(86%) sepia(91%) saturate(1385%) hue-rotate(98deg) brightness(98%) contrast(96%);
+    }
+    
+}
